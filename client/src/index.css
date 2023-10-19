@@ -1,0 +1,221 @@
+/* Add CSS stylesheet */
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+.tag {
+    background: rgb(225, 236, 244);
+    color: rgb(57, 115, 157);
+    display: inline-block;
+    margin: 2px;
+    padding: 2px 5px;
+    border-radius: 5px;
+}
+
+.questions-table {
+    background: #fdf7e2;
+}
+
+table {
+    width: 100%;
+    padding: 20px;
+}
+
+table td {
+    padding: 20px 0;
+}
+
+.comment-box label {
+    font-size: 1em;
+    display: inline-block;
+}
+
+.comment-box input {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.comment-box td {
+    padding: 5px 0 0 50px !important;
+    border-top: none !important;
+}
+
+.comment-box {
+    background: beige;
+}
+
+.questions-table tbody {
+    font-size: 0.8rem;
+}
+
+.questions-table tbody tr td {
+    border-bottom: 1px solid #ecece5;
+}
+
+.questions-table tbody tr.last td {
+    border-bottom: none;
+}
+
+.p-title {
+    font-size: 1rem;
+    color: #0281e8;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.p-askedBy {
+    color: darkblue;
+    font-weight: bold;
+}
+
+.p-askedOn {
+    color: darkgreen;
+    font-weight: bold;
+}
+
+.p-askedAt {
+    color: dodgerblue;
+    font-weight: bold;
+}
+
+nav {
+    background: #f8f9f9;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+nav .link {
+    margin: 0 10px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+nav .link.active {
+    background: #0281e8 !important;
+    color: white !important;
+}
+
+nav .link:hover {
+    background: #e3e6e8;
+    color: black;
+}
+
+nav .logo {
+    flex: 1;
+    font-weight: bold;
+}
+
+nav input {
+    border: 1px solid gray;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.primary {
+    background: #165a92;
+    color: white;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.danger {
+    margin: 0 10px;
+}
+
+.main {
+    margin: 0 auto;
+    padding: 100px 50px 50px;
+}
+
+
+.align-right {
+    text-align: right;
+}
+
+.align-center {
+    text-align: center;
+}
+
+form .group {
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+form div {
+    font-size: 0.8rem;
+}
+
+form input, form textarea {
+    margin-top: 10px;
+    display: block;
+    width: 300px;
+}
+
+#error {
+    color: red;
+}
+
+.tag-box {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.tag-name {
+    color: #0281e8;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+.margin-center {
+    margin: 0 auto;
+    display: block;
+}
+
+.answers td {
+    padding: 20px 0;
+    border-top: 1px dashed gray;
+}
+
+.detail-title {
+    font-size: 1.5rem;
+}
+
+.profile-page {
+    display: flex;;
+}
+
+.profile-page main {
+    flex: 1;
+}
+
+.profile-page aside {
+    width: 400px;
+    padding-left: 20px;
+    padding-top: 50px;
+}
+
+.vote {
+    margin-bottom: 2px;
+    display: block;
+}
